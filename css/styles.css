@@ -11580,6 +11580,7 @@ html {
 
 .profile {
   position: relative;
+  overflow: hidden;
   height: 75vw;
   width: 75vw;
   border-radius: 5vw;
@@ -11588,10 +11589,11 @@ html {
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 60vw;
+  height: 70vw;
   max-height: 30rem;
   position: absolute;
-  bottom: 20px;
+  object-fit: cover;
+  bottom:2px;
   left: 50%;
   transform: translateX(-50%);
 }
